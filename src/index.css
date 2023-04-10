@@ -1,0 +1,38 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+:root {
+  --mainColor: rgb(44, 62, 80);
+  --secondColor: rgb(26, 188, 156);
+}
+body h2 {
+  Font-size: clamp(32px, 4vw, 48px);
+  font-weight: 700;
+  line-height: 40px;
+}
+
+.line {
+  display: inline-block;
+  width: 12vw;
+  margin-inline: 5px;
+  height: 3px;
+  background-color: black;
+}
+
+.line2 {
+  display: inline-block;
+  width: 12vw;
+  margin-inline: 5px;
+  height: 3px;
+  background-color: #fff;
+}
+p {
+  font-size: 20px;
+}
+
+button{
+    background-color: var(--secondColor);
+}
+
+ 

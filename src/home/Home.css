@@ -1,0 +1,42 @@
+header{
+    height: 100vh;
+    background-color: #1abc9c;
+    text-align: center;
+    color: #fff;
+}
+header h1{
+    Font-size: clamp(32px, 4vw, 64px);
+Font-weight: 700;
+/* Line-height: 15px; */
+}
+.fa-star{
+    bottom: -10px;
+    font-size: 30px;
+    position: relative;
+    margin-bottom:15px ;
+}
+
+header img{
+    width: 15rem;
+}
+/* 
+.fa-star::after,.fa-star::before
+{
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 2px;
+  background-color: red;
+  
+  /* vertical-align: middle; */
+  /* position: absolute;
+} 
+h1::after,h1::before{
+    content: "";
+    display: inline-block;
+    width: 100px;
+    height: 2px;
+    background-color: red;
+    vertical-align: middle;
+
+} */

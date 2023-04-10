@@ -1,0 +1,17 @@
+.form-control {
+    border: none !important;
+    resize: none !important;
+    border-radius: 0 !important;
+    color: #495057 !important;
+  }
+  .form-control:focus {
+    box-shadow: none !important;
+  }
+  hr {
+    margin: 15px 0;
+  }
+  
+  .form-text {
+    color: green !important;
+    margin-left: 10px;
+  }
